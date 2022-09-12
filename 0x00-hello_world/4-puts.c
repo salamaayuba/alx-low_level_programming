@@ -5,7 +5,7 @@
  *
  * Description: using the main function
  *
- * This program prints "programing is like building in multilingual puzzle"
+ * This program prints "programming is like building a multilingual puzzle"
  *
  * Return: 0
  *
@@ -15,7 +15,7 @@ int main(void)
 
 {
 
-	puts("\"programing is like building in multilingual puzzle");
+	puts("\"programming is like building a multilingual puzzle");
 
 	return (0);
 
