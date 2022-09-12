@@ -1,29 +1,24 @@
-  * File: 101-quote.c                                                                                                            
-  *
-  *  * AUTH: Salama Ayuba                                                                                                           
-  *
-  *   */                                                                                                                             
+/*
+ *File: 101-quote.c
+ *AUTH: Salama Ayuba
+ */
 
-                                                                                                                                  
+#include <unistd.h>
 
-#include <unistd.h>                                                                                                             
+/**
+ * main - puts "and that piece of art is useful" - Dora Korpar, 2015-10-19"
+ * followed by a new line to standard error
+ * return: 1
+ */
 
- /**
-  * main - prints "and that piece of art is useful" - Dora Korpar, 2015-10-19",
-  *
-  * followed by a new line to standard error
-  *
-  * return: always 1 
-  */         
+int main(void)
 
-                                                                              
-  int main(void)                                                                                                                  
+{
+	write(2,
+			"and that piece of art is useful\" - Dora Korpar, 2015-10-19\n",
+			59);
 
-{                                                                                                                              
-	        write(2,                                                                                                                                        
-	 "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n",                                        
-        59);                                                                          
+return: (1)
 
-return: (1)                                                                                                                     
-}        
+}
 
