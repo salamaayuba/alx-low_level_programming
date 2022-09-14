@@ -16,7 +16,7 @@ void times_table(void)
 		{
 
 			_putchar(',');
-			_purchar(' ');
+			_putchar(' ');
 
 			prod = num * mult;
 
