@@ -21,7 +21,7 @@ int n;
 		}
 		else if (n == 0)
 		{
-			printf("%i is Zero\n", n);
+			printf("%i is zero\n", n);
 		}
 		else if (n < 0)
 		{
