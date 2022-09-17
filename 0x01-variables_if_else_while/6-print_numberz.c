@@ -6,7 +6,7 @@
  * this program prints "Programming is positive, zero, or negative"
  * Return: 0
  */
-int rmain(void)
+int main(void)
 {
 	int n;
 
