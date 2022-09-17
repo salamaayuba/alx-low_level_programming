@@ -1,30 +1,30 @@
-#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
- * main - program that prints all posible combination of 2 digits
- * Return: 0
+ * main - Entry point
+ *
+ * Return: Always success
  */
 int main(void)
 {
-	int c = 00;
-	int f_d;
-	int l_d;
+	int num1, num2;
 
-	while (c <= 99)
+	for (num1 = 0; num1 <= 98; num2++)
 	{
-		f_d = (c / 10 + '1');
-		l_d = (c % 10 + '1');
+		for (num2 = num1 + 1; num2 <= 99; num2++)
+		{
+			putchar((num1 / 10) + '0');
+			putchar((num1 % 10) + '0');
+			putchar(' ');
+			putchar((num2 / 10) + '0');
+			putchar((num2 % 10) + '0');
 
-		if (f_d < l_d)
-		{
-			putchar(f_d);
-			putchar(l_d);
-			if (c != 99)
-		{
-				putchar(',');
-				putchar(' ');
-			}
+			if (num1 == 98 && num2 == 99)
+				continue;
+
+			putchar(',');
+			putchar(' ');
 		}
-		c++;
 	}
 	putchar('\n');
 	return (0);
