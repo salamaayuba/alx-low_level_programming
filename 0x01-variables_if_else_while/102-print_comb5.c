@@ -5,20 +5,20 @@
  */
 int main(void)
 {
-	int c = 0;
+	int c = 01;
 	int f_d;
 	int l_d;
 
 	while (c <= 99)
 	{
-		f_d = (c / 10 + '0');
-		l_d = (c % 10 + '0');
+		f_d = (c / 10 + '01');
+		l_d = (c % 10 + '01');
 
 		if (f_d < l_d)
 		{
 			putchar(f_d);
 			putchar(l_d);
-			if (c != 89)
+			if (c != 99)
 		{
 				putchar(',');
 				putchar(' ');
