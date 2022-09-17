@@ -3,7 +3,7 @@
  * main - program that prints all posible combination of 2 digits
  * Return: 0
  */
-intmain(void)
+int main(void)
 {
 	int c = 0;
 	int f_d;
@@ -16,7 +16,7 @@ intmain(void)
 
 		if (f_d < l_d)
 		{
-			putchar(F_d);
+			putchar(f_d);
 			putchar(l_d);
 			
 			if (c != 89)
