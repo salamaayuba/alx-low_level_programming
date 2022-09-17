@@ -16,7 +16,7 @@ f_d = (c / 100 + '0');
 m_d = (c / 10 % 10 + '0');
 l_d = (c % 10 + '0');
 
-if ((f_d < m_d) && (m_d < l-d))
+if ((f_d < m_d) && (m_d < l_d))
 {
 	putchar(f_d);
 	putchar(m_d);
@@ -28,7 +28,7 @@ if ((f_d < m_d) && (m_d < l-d))
 		putchar(' ');
 	}
 }
-c++
+c++;
 }
 putchar('\n');
 return (0);
