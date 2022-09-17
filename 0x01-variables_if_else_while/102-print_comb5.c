@@ -8,7 +8,6 @@
 int main(void)
 {
 	int num1, num2;
-	putchar()
 
 	for (num1 = 0; num1 <= 98; num2++)
 	{
