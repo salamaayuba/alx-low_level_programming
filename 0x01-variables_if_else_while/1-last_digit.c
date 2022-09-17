@@ -1,4 +1,4 @@
-#i#i#include <stdlib.h>
+#include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 /**
@@ -8,7 +8,7 @@
  * this program prints "Programing is positive, zero, or negative
  * Return: 0
  */
-intmain(void)
+int main(void)
 {
 	int n;
 	int l;
@@ -19,7 +19,7 @@ intmain(void)
 
 		if (l > 5)
 		{
-			printf("Last digit of %d is %d and is greater than 5\n", n, l)
+			printf("Last digit of %d is %d and is greater than 5\n", n, l);
 		}
 		else if (l == 0)
 		{
