@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include "main.h"
-
 /**
  * print_triangle - prints a triangle
  * @size: size parameter of triangle
@@ -23,7 +22,6 @@ void print_triangle(int size)
 			{
 				putchar('#');
 			}
-
 			if (inc1 == size)
 			{
 				continue;
@@ -33,3 +31,4 @@ void print_triangle(int size)
 	}
 	putchar('\n');
 }
+
