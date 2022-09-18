@@ -4,8 +4,7 @@
  * print_number - prints an integer
  * @n: random integer
  * Return: void
- * */
-
+ */
 Void print_number(int n)
 {
 	char ld, cr;
