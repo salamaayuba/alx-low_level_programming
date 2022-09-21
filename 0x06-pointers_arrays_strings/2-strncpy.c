@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strncpy - c function that copies as string, including the terminating null  null byte, 
+ * _strncpy - c function that copies as string, including the terminating null  null byte,
  * using at most an inputted number of bytes.
  * if the length of the of the source string is less than the maximum byte number,
  * the remainder of teh destination string is filed with null bytes.
