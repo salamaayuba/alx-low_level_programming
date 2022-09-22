@@ -2,7 +2,7 @@
 
 /**
  * _strncat - concatenates two strings using at most
- * 		an inputted number of bytes from src.
+ *		an inputted number of bytes from src.
  * @dest: string to be appended upon.
  * @src: string to be appended to dest.
  * @n: the number of bytes to be appended to dest.
