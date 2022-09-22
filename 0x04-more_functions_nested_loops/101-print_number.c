@@ -5,7 +5,7 @@
  * @n: random integer
  * Return: void
  */
-Void print_number(int n)
+void print_number(int n)
 {
 	char ld, cr;
 	int r;
@@ -20,7 +20,7 @@ Void print_number(int n)
 
 	else
 	{
-		ld = (char)(n % 10) + '0');
+		ld = (char)(n % 10) + '0';
 		n = n / 10;
 	}
 
