@@ -5,6 +5,7 @@
  * @s: address to memory block
  * @b: char to be used
  * @n: number of bytes to be used
+ * Return: Always 0
  */
 
 char *_memset(char *s, char b, insigned int n)
