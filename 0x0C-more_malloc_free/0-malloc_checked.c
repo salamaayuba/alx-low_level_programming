@@ -5,11 +5,10 @@
 * malloc_checked - allocates memory using malloc
 * @b: memory to allocate
 *
-* Return: pointer to allocate memory or normal process
+* Return: pointer to allocate memory or normal process termination if error
 */
 void *malloc_checked(unsigned int b)
 {
-
 	void *p;
 
 	p = malloc(b);
